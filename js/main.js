@@ -1,7 +1,7 @@
 
-let nombre = prompt("ingresar un nombre o escribe ESC para salir")
+let nombre = prompt("ingresar un nombre o escribe ESC para salir").toLowerCase()
 
-while (nombre != "ESC") {
+while (nombre != "esc") {
 
     alert("el usuario ingreso el nombre de " + nombre);
 
